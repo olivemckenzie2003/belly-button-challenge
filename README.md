@@ -37,7 +37,7 @@ D3 library is used to read in samples.json into the sample.js where it is manipu
 
 In the app.js file  
 
-For each sample a drop down menu showing Sample ID, is used to displayed information from that perticular sample in a horizontal bar chart, gauge chart, buble chart and a sample metadata of an individual's demographic information:
+For each sample a drop down menu showing Sample ID, is used to displayed information from that perticular sample in a horizontal bar chart, gauge chart, buble chart and a  metadata of an individual's demographic information in a information box.
 
  Horizontal bar chart of of the the top 10 OTUs found in that individual:
 
