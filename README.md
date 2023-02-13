@@ -7,17 +7,17 @@ D3 is a JavaScript library and framework for creating visualizations. D3 creates
 
 
 Download starter code files and store them in cloned github folder on personal computer.
-Use Visual studio to develope and execute code. Right click on index.html and select "open with live server" to run code 
+Use Visual studio to develope and execute code. Right click on index.html inside visual studio and select "open with live server" to run code 
 
 
-samples.jason is a JSON file which contains sample date used.
-JSON files  contain JSON objects which have zero, one, or more key-value pairs, also known as properties. The object is within curly braces {} and every every key-value pair is separated by a comma. key-value pair do not have to be stored in order.
+samples.jason is a JSON file which contains sample data used.
+JSON files  contain JSON objects which have zero, one, or more key-value pairs, also known as properties. The object is within curly braces {} and every key-value pair is separated by a comma. key-value pair do not have to be stored in order.
 
 
 
 The HTML file:
 
-	 contains a refernce to the sample.js file 
+	 contains a refernce to the samples.jason file 
 
 	"https://d3js.org/d3.v5.min.js"     			imports the d3js library
 	
@@ -29,17 +29,17 @@ The HTML file:
 	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"     	imports bootstrap capabilities into the html file 
 	
 	CDN stands for Content Delivery Network or Content Distribution Network. It helps us to improve the rendering time and website performance and is an open
-	source front-end development framework for the creation of websites and web apps. Enables responsive development of mobile-first website and provides a 
+	source front-end development framework for the creation of websites and web apps. It enables responsive development of mobile-first website and provides a 
 	collection of syntax for template designs.
 
 
-D3 library is used to read in samples.json into the sample.js where it is manipulated for analysis purposes using D3.js (Java Script)
+D3 library is used to read in samples.json into the sample.js file where it is manipulated for analysis purposes using D3js (Java Script)
 
 In the app.js file  
 
-For each sample a drop down menu showing Sample ID, is used to displayed information from that perticular sample in a horizontal bar chart, gauge chart, buble chart and a  metadata of an individual's demographic information in a information box.
+For each sample a drop down menu showing Sample ID, is used to displayed information from that particular sample in a horizontal bar chart, gauge chart, bubble chart and a  metadata of an individual's demographic information in a information box.
 
- Horizontal bar chart of of the the top 10 OTUs found in that individual:
+ Horizontal bar chart of the the top 10 OTUs found in that individual:
 
  	sample_values used as the values 
 
@@ -67,7 +67,7 @@ An individual's demographic information:
 	age
 	gender
 	location 
-	wfreq
+	wfreq (stands for wash frequency)
 	bbtype
 
 Gauge Chart:
@@ -81,7 +81,7 @@ Test Subject Id Number dropdown chart
 
 
 
-Bar Chart, Bubble chart. An individual's demographic information, Gauge Chart and Test Subject Id Number dropdown chart are all displayed in a dashboard
+Bar Chart, Bubble chart, an individual's demographic information box, Gauge Chart and a test Subject Id Number dropdown chart are all displayed in a dashboard
 
 	
 
