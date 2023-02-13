@@ -1,13 +1,12 @@
 # belly-button-challenge
 
 
-This assignment builds an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+This assignment builds an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-D3 is a JavaScript library and framework for creating visualizations. D3 creates visualizations by binding the data and graphical elements to the Document Object Model. D3 associates 
-(binding) the data (stuff you want to visualize) with the DOM. This allows the user to manipulate, change or add to the DOM.
+D3 is a JavaScript library and framework for creating visualizations. D3 creates visualizations by binding the data and graphical elements to the Document Object Model (DOM). D3 associates (binding) the data (stuff you want to visualize) with the DOM. This allows the user to manipulate, change or add to the DOM.
 
 
-Download starter code files and store them cloned github folder on personal computer
+Download starter code files and store them in cloned github folder on personal computer.
 Use Visual studio to develope and execute code. Right click on index.html and select "open with live server" to run code 
 
 
