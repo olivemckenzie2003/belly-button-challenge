@@ -10,14 +10,14 @@ Download starter code files and store them in cloned github folder on personal c
 Use Visual studio to develope and execute code. Right click on index.html inside visual studio and select "open with live server" to run code 
 
 
-samples.jason is a JSON file which contains sample data used.
+samples.json is a JSON file which contains sample data used.
 JSON files  contain JSON objects which have zero, one, or more key-value pairs, also known as properties. The object is within curly braces {} and every key-value pair is separated by a comma. key-value pair do not have to be stored in order.
 
 
 
 The HTML file:
 
-	 contains a refernce to the samples.jason file 
+	 contains a refernce to the samples.json file 
 
 	"https://d3js.org/d3.v5.min.js"     			imports the d3js library
 	
