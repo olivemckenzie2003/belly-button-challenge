@@ -20,24 +20,26 @@ The HTML file:
 	 contains a refernce to the sample.js file 
 
 	"https://d3js.org/d3.v5.min.js"     			imports the d3js library
-  	"https://cdn.plot.ly/plotly-latest.min.js  		imports  charting library plotly.js which includes over 40 chart types, including 3D charts, statistical graphs, SVG maps and dashboards.
-  	"./static/js/app.js"						imports the app.js files where the D3.js code is implimented
+	
+  	"https://cdn.plot.ly/plotly-latest.min.js  		imports  charting library plotly.js which includes over 40 chart types, including 3D charts,   
+	                                                        statistical graphs, SVG maps and dashboards.
+								
+  	"./static/js/app.js"					imports the app.js files where the D3.js code is implimented
   	
-	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-	imports bootstrap capabilities into the html file 
-	CDN stands for Content Delivery Network or Content Distribution Network. It helps us to improve the rendering time and website performance and is an open source front-end development  	
-	framework for the creation of websites and web apps. Enables responsive development of mobile-first website and provides a collection of syntax for template designs.
+	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"     	imports bootstrap capabilities into the html file 
+	
+	CDN stands for Content Delivery Network or Content Distribution Network. It helps us to improve the rendering time and website performance and is an open
+	source front-end development framework for the creation of websites and web apps. Enables responsive development of mobile-first website and provides a 
+	collection of syntax for template designs.
 
 
 D3 library is used to read in samples.json into the sample.js where it is manipulated for analysis purposes using D3.js (Java Script)
 
 In the app.js file  
 
-For each sample a drop down menu is used to control what is displayed in a horizontal bar chart, a gauge chart, a buble chart and a sample metadata, i.e., an individual's demographic information.
+For each sample a drop down menu showing Sample ID, is used to displayed information from that perticular sample in a horizontal bar chart, gauge chart, buble chart and a sample metadata of an individual's demographic information:
 
-Bar Chart:
-
-A horizontal bar chart with a dropdown menu is used to display the top 10 OTUs found in that individual:
+ Horizontal bar chart of of the the top 10 OTUs found in that individual:
 
  	sample_values used as the values 
 
@@ -55,13 +57,13 @@ Bubble chart:
 
 	otu_ids for the marker colors
 
-	otu_labels for the text values
+	otu_labels for the hovertext text values
 
 
 An individual's demographic information:
 
 	id
-      ethnethacy 
+        ethnicity 
 	age
 	gender
 	location 
@@ -79,7 +81,7 @@ Test Subject Id Number dropdown chart
 
 
 
-Bar Chart, Bubble chart. An individual's demographic information, Gauge Chart and Test Subject Id Number dropdown chart are all displayed in dashboard
+Bar Chart, Bubble chart. An individual's demographic information, Gauge Chart and Test Subject Id Number dropdown chart are all displayed in a dashboard
 
 	
 
