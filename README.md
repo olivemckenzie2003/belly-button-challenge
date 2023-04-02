@@ -82,8 +82,8 @@ Test Subject Id Number dropdown chart
 
 
 Bar Chart, Bubble chart, an individual's demographic information box, Gauge Chart and a test Subject Id Number dropdown chart are all displayed in a dashboard
-
-	
+modified code for gauge	
+Modified some of code from : // https://github.com/whitneylosinski/Belly_Button_Biodiversity/blob/master/charts.js    
 
 
 
